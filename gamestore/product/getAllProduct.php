@@ -1,7 +1,6 @@
 <?php
     require("../setting.php");
     $data = array();
-    $response = 0;
     $sql = "SELECT * from product";
     $res = mysqli_query($conn, $sql);
 
